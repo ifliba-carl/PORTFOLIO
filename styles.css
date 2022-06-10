@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.logo {
+    height: 50px;
+
+}
+
+.nav-item .nav-link {
+    color: white;
+}
+
+
+
+.content {
+    background-color: rgba(73, 77, 78, 1);
+
+}
+
+/* .nav-pills{
+    //for text hover
+    --bs-nav-pills-link-active-color: rgba(7, 233, 112, 1); 
+    --bs-nav-pills-link-active-bg:rgba(255, 255, 0, 0);
+
+} */
+.hello {
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0%;
+    margin-top: 49px;
+    color: rgba(7, 233, 112, 1);
+    margin-top: 75px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+.info {
+    color: rgba(162, 163, 164, 1);
+}
+
+hr {
+    width: 199px;
+    border: 4px solid rgba(7, 233, 112, 1);
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.hire {
+    width: 205px;
+    height: 54px;
+    font-size: 30px;
+    font-weight: 500;
+    border-color: rgba(7, 233, 112, 1);
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgba(7, 233, 112, 1);
+}
+
+.image1 {
+    height: 580px;
+    margin-top: 45px;
+}
+
+.section2 .name {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(7, 233, 112, 1);
+    text-align: center;
+}
+
+.section2 .info{
+    color: white;
+    text-align: center;
+}
+.section2 .paint{
+    font-size: 80px;
+    color: rgba(7, 233, 112, 1);
+}
+.section2 .job{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.section2 .part2{
+    text-align: center;
+}
+
+.section2 .part2 .card{
+    background: rgba(88, 81, 81, 0.343);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    position: relative;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 255px;
+    width: 170px;
+
+}
+.section2 .part2 .card .card-content {
+    z-index: 5;
+    margin-top: 25px;
+    height: 255px;
+    width: 170px;
+    
+}
+.section2 .part2 .card .overlay{
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.682);
+    height: 255px;
+    width: 338px;
+    filter: blur(50px);
+    z-index: 1;
+}
+ .section2 .image2{
+     height: 566px;
+     width: 450px;
+     margin-top: -137px;
+ }
+
+ .collection{
+    font-size: 60px;
+    font-weight:600;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0%;
+    color: white;
+    display: flex;
+    justify-content: center;
+ }
+
+ .section3 .name {
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(7, 233, 112, 1);
+    text-align: center;
+    margin-top: 30px;
+}
+
+ .work {
+    position: relative;
+    width: 100%;
+  }
+  
+  .img1 {
+    opacity: 1;
+    display: block;
+    width: 384px;
+    height: 282px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .view {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .works:hover .img1 {
+    opacity: 0.3;
+
+  }
+  
+  .works:hover .view {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgba(7, 233, 112, 1);
+    font-size: 30px;
+    font-weight: 500;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 10px;
+    width: 204px;
+    height: 54px;
+  }
+
+.client{
+    color: rgba(7, 233, 112, 1);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.one{
+    border-radius: 25px 0px 0px 25px;
+    height: 20em;
+}
+
+.Sname{
+    color: rgba(7, 233, 112, 1);
+}
+.card_comment{
+    border-radius: 0px 25px 25px 0px;
+}
+.sec5-img{
+    width: 379px;
+    height: 536px;
+}
+.sec5-iconM{
+    /* padding-top: 100px; */
+    align-self: center;
+}
+.sec5-icon{
+    font-size: 40px;
+    /* padding-top: 50px; */
+}
+.sec5-icon i a{
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.sec5-form{
+    align-items: center;
+    align-self: center;
+}
+.sec5-msg{
+    margin-top: 100px;
+}
+
+.sec5-concern .form-control{
+    padding-bottom: 100px;
+}
+.form-control{
+    background-color: rgba(162, 163, 164, 1);
+    border-radius: 15px;
+    color: white;
+}
+
+.sec5-button .btn{
+    width: 205px;
+    height: 54px;
+    font-size: 30px;
+    font-weight: 500;
+    border-color: rgba(7, 233, 112, 1);
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgba(7, 233, 112, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --Media Query-- */
+@media only screen and (min-width: 1200px) {
+    /* styles for browsers larger than 1200px;  */
+}
+
+@media only screen and (min-width: 960px) {
+    /*  styles for browsers larger than 960px;  */
+}
+
+@media only screen and (device-width: 768px) {
+    /* default tablet and iPad screens  */
+    .section1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1 .image1{
+        height: 358px;
+        width: 270px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .hello{
+        margin-top: 20px;
+    }
+
+    .name{
+        font-size: 15px;
+    }
+    .collection{
+        font-size: 40px;
+        display: flex;
+        text-align: center;
+    }
+    .card_comment{
+        margin: 10px;
+        border-radius: 25px;
+    }
+
+    
+}
+@media only screen and (max-device-width:768px){
+    /* sarileng dagdag na mediaquery */
+    .card_comment{
+        margin: 10px;
+        border-radius: 25px;
+    }
+    .collection{
+        font-size: 40px;
+        display: flex;
+        text-align: center;
+    }
+    .sec5-img{
+        height: 180px;
+        width: 180px;
+        padding-right: 0%;
+    }
+    .sec5-iconM{
+        align-content: center;
+        padding-left: 20%;
+    }
+    .imgsec5{
+        display: flex;
+        justify-content: center;
+    }
+    .sec5-form{
+        width: 90%;
+        padding-left: 20%;
+        padding-right: 10%;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for bile browsers smaller than 480px;  */
+    .section1{
+        display: flex;
+        text-align: center;
+        justify-items: center;
+    }
+    .hello{
+        margin-top: 20px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .collection{
+        font-size: 40px;
+        display: flex;
+        text-align: center;
+    }
+    .card_comment{
+        margin: 10px;
+        border-radius: 25px;
+    }
+    .sec5-img{
+        height: 180px;
+        width: 180px;
+        padding-right: 0%;
+    }
+    .sec5-iconM{
+        align-content: center;
+        padding-left: 20%;
+    }
+    .imgsec5{
+        display: flex;
+        justify-content: center;
+    }
+    .sec5-form{
+        width: 90%;
+        padding-left: 20%;
+        padding-right: 10%;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+}
+
+}
+
+@media only screen and (max-device-width: 360px) {
+    /* styles for mobile browsers smaller than 360px;  */
+    .section1{
+        display: flex;
+        text-align: center;
+        justify-items: center;
+    }
+    .hello{
+        margin-top: 20px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .collection{
+        font-size: 40px;
+        display: flex;
+        text-align: center;
+    }
+    .card_comment{
+        margin: 10px;
+        border-radius: 25px;
+    }
+    .imgsec5{
+        display: flex;
+        justify-content: center;
+    }
+    .sec5-img{
+        height: 180px;
+        width: 180px;
+        padding-right: 0%;
+    }
+    .sec5-iconM{
+        align-content: center;
+        padding-left: 20%;
+    }
+    /* .sec5-icon i{
+        font-size: 3000px;
+    } */
+    .sec5-icon i,
+    .sec5-icon a{
+        font-size: 50px;
+    }
+    .sec5-form{
+        width: 90%;
+        padding-left: 20%;
+        padding-right: 10%;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+}
+
+
+
+
+
+
+
